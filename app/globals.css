@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #0098d3, #001d64);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #ffffff20;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ffffff40;
+}
+
+.game-card {
+  background: #ffffff10;
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.hint, .message, .emoji, .result {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
